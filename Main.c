@@ -2,20 +2,19 @@
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
-#include "/Users/javo/libreria/aleatorios.h"
-#include "/Users/javo/libreria/SpecialFunctions.h"
-#include "/Users/javo/libreria/ranlib.h"
-#include "/Users/javo/libreria/rnglib.h"
-#include "/Users/javo/libreria/libmul.h"
+#include "aleatorios.h"
+#include "SpecialFunctions.h"
+#include "ranlib.h"
+#include "rnglib.h"
+#include "libmul.h"
 
 
 
 #include "def_oran.c"
 
 /*
-En este programa esta para hacer los promedios diarios de oran
-prueba y seguramente falla
-sss
+This program is to make the averages of the daily cases in Oran.
+try and surely fail
 */
 
 	/*macross seven trash*/
@@ -94,7 +93,7 @@ int main(int argc,char *argv[])
       float H_t0[RAD_CENSAL],Vector0[RAD_CENSAL];
       int delay_LP[RAD_CENSAL][DAYS];
       
-      /*paramites de chimpokemon*/
+      /*paramite of ecological model*/
 	  float mL[RAD_CENSAL],mP[RAD_CENSAL],mE[RAD_CENSAL],muL[RAD_CENSAL],muP[RAD_CENSAL],muE[RAD_CENSAL],CG[RAD_CENSAL],CL[RAD_CENSAL],KL[RAD_CENSAL],muM[RAD_CENSAL];
 	  
 	  /*paramites sir - si*/
