@@ -8,7 +8,7 @@
 #include "rnglib.h"
 #include "libmul.h"
 
-
+/* Code by Javier Gutierrez */
 
 #include "def_oran.c"
 
